@@ -29,6 +29,9 @@
   <ItemGroup>
     <QtRcc Include="resource\MainResource.qrc" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="style\MainStyle.qss" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5BB5677B-4CDF-460B-B8D7-CB23FCB3D19F}</ProjectGuid>
     <Keyword>QtVS_v304</Keyword>

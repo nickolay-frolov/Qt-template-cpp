@@ -45,4 +45,9 @@
       <Filter>Resource Files</Filter>
     </QtRcc>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="style\MainStyle.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

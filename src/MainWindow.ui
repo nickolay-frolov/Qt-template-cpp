@@ -97,20 +97,23 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="hello_label">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>50</width>
-      <height>50</height>
+      <x>400</x>
+      <y>260</y>
+      <width>501</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="text">
-     <string/>
+     <string>Hello World from Qt! :)</string>
     </property>
-    <property name="pixmap">
-     <pixmap>:/new/prefix1/images/icons8-system-monitoring-50.png</pixmap>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>

@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent)
 
 void MainWindow::setupStyle()
 {
-	QString styleFilePath = "MainStyle.qss";
+	QString styleFilePath = "style/MainStyle.qss";
 
 	try {
 		QFile styleFile(styleFilePath);
